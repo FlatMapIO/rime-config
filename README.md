@@ -3,6 +3,8 @@
 
 ## Linux
 
+> NOTE: ubuntu store 中的 vscode 是残缺的，必须使用官方下载的 deb 才能正常输入中文
+
 - 安装 ibus-rime
 
 ```
