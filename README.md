@@ -16,15 +16,11 @@ sudo apt install -y \
 - 增加输入源： settings / keyboard / Input Sources :: +
 
 
-
 - 安装配置
 
 ```
 cd ~/.config
 git clone --depth 1 https://github.com/FlatMapIO/rime-config.git
-
-# macOS
-ln -s $PWD/rime-config/config $PWD/rime
 
 # linux
 ln -s $PWD/rime-config/config ibus/rime
