@@ -22,8 +22,14 @@ sudo apt install -y \
 ```
 cd ~/.config
 git clone --depth 1 https://github.com/FlatMapIO/rime-config.git
+
+# macOS
 ln -s $PWD/rime-config/config $PWD/rime
+
+# linux
+ln -s $PWD/rime-config/config ibus/rime
 ```
+
 
 
 在输入法菜单重新部署
